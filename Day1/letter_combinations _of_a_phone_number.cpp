@@ -1,5 +1,6 @@
 //Leetcode 17
-
+#include <bits/stdc++.h>
+using namespace std;
 class Solution {
     void solve(string digits, string output, int index, vector<string>& ans, string mapping[])
     {
@@ -29,3 +30,16 @@ public:
         return ans;
     }
 };
+int main() {
+    Solution solution;
+    string digits = "23"; // Example input
+    vector<string> combinations = solution.letterCombinations(digits);
+    
+    // Output the combinations
+    cout << "Letter Combinations for " << digits << " are:\n";
+    for (const string& combination : combinations) {
+        cout << combination << "\n";
+    }
+
+    return 0;
+}
