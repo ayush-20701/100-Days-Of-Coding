@@ -18,7 +18,7 @@ class Solution {
             output.pop_back(); //backtrack
         }
     }
-public:
+    public:
     vector<string> letterCombinations(string digits) {
         vector<string> ans;
         if(digits.length() == 0)
@@ -30,12 +30,13 @@ public:
         return ans;
     }
 };
+
 int main() {
     Solution solution;
     string digits = "23"; // Example input
     vector<string> combinations = solution.letterCombinations(digits);
     
-    // Output the combinations
+    // print the combinations
     cout << "Letter Combinations for " << digits << " are:\n";
     for (const string& combination : combinations) {
         cout << combination << "\n";

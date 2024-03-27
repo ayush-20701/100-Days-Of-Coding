@@ -1,6 +1,10 @@
 //Leetcode 287
 
 //Floyd's Hare and Tortoise algorithm
+#include <bits/stdc++.h>
+
+using namespace std;
+
 class Solution {
 public:
     int findDuplicate(vector<int>& nums) {
@@ -21,3 +25,15 @@ public:
         return slow;
     }
 };
+
+int main() {
+    // Example input
+    vector<int> nums = {1, 3, 4, 2, 2}; // Contains a duplicate: 2
+
+    Solution solution;
+    int duplicate = solution.findDuplicate(nums);
+
+    cout << "Duplicate number: " << duplicate << endl;
+
+    return 0;
+}
