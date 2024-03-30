@@ -1,6 +1,5 @@
-#include <iostream>
-#include <vector>
-#include <algorithm>
+//Leetcode 2962
+#include <bits/stdc++.h>
 
 using namespace std;
 
