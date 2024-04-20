@@ -1,4 +1,4 @@
-// Leetcode 1992
+// Leetcode 1992 (medium)
 #include <bits/stdc++.h>
 
 using namespace std;
